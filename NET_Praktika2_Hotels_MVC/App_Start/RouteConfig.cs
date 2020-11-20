@@ -16,7 +16,7 @@ namespace NET_Praktika2_Hotels_MVC
             routes.MapRoute(
                 name: "Default",
                 url: "{controller}/{action}/{id}",
-                defaults: new { controller = "Home", action = "Index", id = UrlParameter.Optional }
+                defaults: new { controller = "Cities", action = "Index", id = UrlParameter.Optional }
             );
         }
     }
